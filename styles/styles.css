@@ -598,7 +598,8 @@ footer {
 }
 
 .stakeholders-container {
-  margin: 170px;
+  margin-top: 70px;
+  margin-bottom: 80px;
 }
 
 .stakeholders-container h1 {
