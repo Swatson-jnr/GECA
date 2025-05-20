@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato";
-  /* color: #fff; */
 }
 
 html::-webkit-scrollbar {
@@ -44,27 +43,32 @@ nav {
 nav ul {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 nav ul li {
   list-style-type: none;
+  text-align: center;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #fff;
   transition: 0.5s ease-in-out;
+  margin-top: 15px;
 }
 
 nav ul li a:hover {
-  color: #6b1014;
+  color: #000;
   transition: 0.5s ease-in-out;
 }
 
 .sign-up {
   background: #000;
   color: white;
-  padding: 10px 20px;
+  padding: 4px 10px;
   border-radius: 30px;
   cursor: pointer;
   border: none;
@@ -72,8 +76,12 @@ nav ul li a:hover {
   transition: all 0.4s ease-in-out;
 }
 
+.sign-up a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .sign-up:hover {
-  background-color: #000;
   border: 1px solid #fff;
 }
 .sub-nav {
@@ -90,6 +98,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   color: #000;
+  margin-top: 10px;
 }
 
 .sub img {
@@ -97,6 +106,9 @@ nav ul li a:hover {
   margin-right: 5px;
 }
 
+.second-nav {
+  margin-top: 15px;
+}
 .welcoming-text {
   color: #fff;
   height: 70vh;
@@ -120,8 +132,7 @@ nav ul li a:hover {
   transition: all 0.4s ease-in-out;
 }
 
-.join a,
-.sign-up a {
+.join a {
   text-decoration: none;
   color: white;
 }
@@ -476,8 +487,8 @@ footer {
 }
 
 .the-executives {
-  width: 90%;
-  overflow: hidden;
+  width: 100%;
+  /* overflow: hidden; */
   margin: 90px auto;
   height: 70vh;
   padding: 20px;
