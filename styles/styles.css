@@ -479,6 +479,7 @@ footer {
   overflow: hidden;
   margin: 90px auto;
   height: 70vh;
+  padding: 20px;
 }
 
 .exe-indi {
@@ -489,6 +490,7 @@ footer {
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   height: 450px;
+  margin-bottom: 20px;
 }
 
 .exe-indi:hover {
