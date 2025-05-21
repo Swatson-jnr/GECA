@@ -474,11 +474,16 @@ footer {
 }
 
 .exe-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  width: 90%;
+  /* display: flex;
   justify-content: space-around;
   height: 60vh;
   width: 90%;
-  gap: 30px;
+  gap: 30px; */
 }
 
 .executives {
@@ -502,6 +507,7 @@ footer {
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   height: 450px;
+  text-align: center;
   margin-bottom: 20px;
 }
 
