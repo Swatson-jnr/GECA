@@ -23,21 +23,21 @@ header {
   height: 100vh;
 }
 .nav-container {
-  background-color: #6b1014;
+  background-color: #c91f25;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 20px 50px;
   width: 100%;
-  height: 50px;
+  height: 80px;
   margin: 0 auto;
 }
 
 .logo-container img {
-  width: 230px;
+  width: 200px;
   height: 100%;
 }
 nav ul {
@@ -66,9 +66,9 @@ nav ul li a:hover {
 }
 
 .sign-up {
-  background: #000;
+  background: #6b1014;
   color: white;
-  padding: 4px 10px;
+  padding: 14px 22px;
   border-radius: 30px;
   cursor: pointer;
   border: none;
@@ -86,11 +86,18 @@ nav ul li a:hover {
 }
 .sub-nav {
   background-color: #eff2f3;
+  width: 100%;
 }
+
 .sub-nav-links {
   display: flex;
   justify-content: end;
   font-size: 12px;
+  height: 60px;
+}
+
+.sub {
+  margin-right: 70px;
 }
 
 .sub li a {
@@ -99,15 +106,24 @@ nav ul li a:hover {
   justify-content: center;
   color: #000;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .sub img {
-  width: 15px;
+  background-color: #3a4852;
+  width: 29px;
+  /* height: 20px; */
   margin-right: 5px;
+  padding: 5px 5px;
+  border-radius: 20px;
 }
 
 .second-nav {
   margin-top: 15px;
+}
+
+.second-nav a {
+  font-size: 18px;
 }
 .welcoming-text {
   color: #fff;
@@ -122,12 +138,13 @@ nav ul li a:hover {
 }
 
 .join {
-  background: #6b1014;
+  background: #c91f25;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 30px;
   cursor: pointer;
   border: none;
+  width: 200px;
   border: 1px solid transparent;
   transition: all 0.4s ease-in-out;
 }
@@ -144,29 +161,31 @@ nav ul li a:hover {
 
 .hero-text {
   position: absolute;
-  top: 50%;
-  left: 10%;
-  width: 500px;
-  height: 290px;
+  top: 70%;
+  left: 9%;
+  width: 650px;
+  height: 343px;
   transform: translateY(-50%);
   z-index: 1;
   color: white;
   padding: 20px 30px;
-  border-radius: 10px;
-  background-color: #3a4852;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
 .hero-text h2 {
   font-family: "Lato";
-  color: #eff3ef;
+  color: #c91f25;
+  font-size: 50px;
+  font-weight: 800;
 }
 
 .hero-text p {
   font-family: "Lato";
-  color: #eff3ef;
+  color: #c91f25;
   font-size: 16px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .carousel {
   width: 100vw;
@@ -187,8 +206,10 @@ nav ul li a:hover {
 
 /* the styling for the about section */
 .about {
-  margin-top: 70px;
   font-family: "Lato";
+  background-color: #c91f25;
+  margin-top: 150px;
+  height: 100vh;
 }
 
 .about-us {
@@ -204,6 +225,7 @@ nav ul li a:hover {
 
 .about-us .about h1 {
   text-align: center;
+  color: #fff;
 }
 
 .about-text {
@@ -212,11 +234,13 @@ nav ul li a:hover {
 
 .about-text p {
   font-size: 16px;
+  color: #fff;
 }
 
 .about-text h2 {
   margin-top: 20px;
   font-size: 36px;
+  color: #fff;
 }
 
 .about-us {
@@ -230,6 +254,7 @@ nav ul li a:hover {
 .about-experience h1 {
   font-size: 16px;
   font-weight: 800;
+  color: #fff;
 }
 
 .experience {
@@ -263,18 +288,30 @@ nav ul li a:hover {
 }
 
 .membership {
-  background-color: #6b1014;
+  background-color: #eedfdf;
   margin-top: 50px;
 }
 .membership-text {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
+.member-header {
+  font-size: 36px;
+  padding-top: 60px;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+
+.various-mem {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+}
 .membership-text h1 {
   font-size: 36px;
   padding-top: 40px;
   font-weight: 800;
+  color: #000;
 }
 
 .membership-text h5 {
@@ -340,6 +377,7 @@ nav ul li a:hover {
 .student h1 {
   font-size: 17px;
   font-family: "Lato";
+  color: #000;
 }
 
 .find-more-button {
@@ -355,6 +393,20 @@ nav ul li a:hover {
   border: none;
   font-weight: 800;
   margin-bottom: 40px;
+  width: 211px;
+  height: 57px;
+  font-weight: 800;
+  font-size: 18px;
+  transition: all 0.4s ease-in-out;
+}
+
+.find-more:hover {
+  background-color: #c91f25;
+  color: #fff;
+}
+
+.business-directory {
+  background-color: #eedfdf;
 }
 
 .Directory-container {
@@ -362,6 +414,10 @@ nav ul li a:hover {
   width: 90%;
   margin: 0 auto;
   height: 80vh;
+}
+
+.business-text {
+  width: 50%;
 }
 .Business-text h1 {
   color: #6b1014;
@@ -375,24 +431,30 @@ nav ul li a:hover {
   font-size: 27px;
 }
 .business-image {
-  background-image: url(../images/h2.jpg);
+  background-image: url(../images/are\ you\ looking.png);
   width: 50%;
   background-position: right;
   background-size: cover;
 }
-
+.image-container {
+  margin-top: 60px;
+}
 .qr {
   display: flex;
 }
 .qrcode {
-  width: 200px;
+  width: 150px;
 }
 
 .location h1 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .location h2 {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.same {
+  font-size: 16px;
 }
 
 .footer-links {
@@ -412,10 +474,10 @@ nav ul li a:hover {
 .footer-links a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 footer {
-  background-color: #6b1014;
+  background-color: #c91f25;
   color: #fff;
   width: 100%;
 }
@@ -424,7 +486,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 20px; */
   width: 90%;
   margin: 50px auto;
 }
@@ -434,10 +495,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
-}
-
-.last {
-  font-size: 14px;
 }
 
 .quote {
@@ -455,7 +512,7 @@ footer {
   color: #6b1014;
 }
 
-.last-killer h1 {
+.another {
   font-size: 25px;
   font-weight: 800;
 }
@@ -464,59 +521,44 @@ footer {
   font-size: 20px;
 }
 
-/* .exe {
-  padding: 20px 30px;
-  border: 1px solid #e0dcdc;
-} */
-
-.exe img {
-  width: 230px;
-}
-
-.exe-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin: 0 auto;
-  width: 90%;
-  /* display: flex;
-  justify-content: space-around;
-  height: 60vh;
-  width: 90%;
-  gap: 30px; */
-}
-
-.executives {
-  background-color: #f3f4f6;
-  padding: 20px;
-  width: 100%;
+.the-president {
   margin-top: 50px;
-  /* Remove height or use min-height */
-  /* height: auto; */
-  min-height: 100vh; /* Optional: to ensure some minimum height */
+  background-color: #f3f4f6;
+  min-height: 80vh;
+  padding: 20px 0;
 }
 
-.the-executives {
-  width: 100%;
-  /* overflow: hidden; */
+.pres-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
 }
-
-.exe-indi {
-  padding: 10px 20px;
-  border: 1px solid #f3e0e0;
-  box-shadow: 0px 3px 20px #6b1014;
+.details {
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
   border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  height: 450px;
+  max-width: 400px;
   text-align: center;
-  margin-bottom: 20px;
 }
 
-.exe-indi:hover {
-  transform: scale(0.9);
+.pres-text {
+  padding-top: 10px;
+}
+.pres-details h1 {
+  font-size: 18px;
+  padding-top: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
 }
 
+.pres-details h6 {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  /* font-weight: 800; */
+}
 .news-events {
   margin-top: 50px;
 }
@@ -535,25 +577,28 @@ footer {
   gap: 30px; /* Space between items */
   text-align: center;
   flex-wrap: nowrap; /* Prevent wrapping */
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
-  animation: scroll 18s linear infinite;
+  /* animation: scroll 18s linear infinite; */
 }
 
 .s-panel {
-  width: 409px;
-  height: 450px;
+  width: 405px;
+  height: 224px;
   background-image: url(../images/solar.png);
+  background-position: center;
 }
 .s-camera {
-  width: 409px;
-  height: 450px;
+  width: 405px;
+  height: 224px;
   background-image: url(../images/camera.png);
+  background-position: center;
 }
 .s-shoe {
-  width: 400px;
-  height: 450px;
+  width: 405px;
+  height: 224px;
   background-image: url(../images/shoe.png);
+  background-position: left;
 }
 
 .camera-container {
@@ -663,8 +708,58 @@ footer {
 }
 
 .star {
-  width: 40px !important;
-  height: 40px !important;
+  width: 120px; /* Or smaller if needed */
+  height: auto;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container img {
+  width: 30px;
+}
+
+.testimonials {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.testimonials h1 {
+  font-size: 28px;
+  color: #6b1014;
+  font-weight: 800;
+}
+
+.testimonials h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.testimonials p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Fix for centering carousel items */
+.carousel-inner {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .test {
@@ -672,12 +767,44 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
-  padding-right: 400px;
+  padding: 20px;
+}
+
+/* Fixed d-flex alignment */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.star {
+  width: 150px;
+  height: auto;
 }
 
 .d-flex p {
-  margin-top: 5px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+/* Add proper margin to carousel container */
+#testimonialCarousel {
+  margin: 30px auto;
+}
+
+/* Make testimonial text more visible */
+.test p:first-child {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.test h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
 }
