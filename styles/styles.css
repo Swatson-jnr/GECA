@@ -295,7 +295,7 @@ nav ul li a:hover {
 }
 
 .membership {
-  background-color: #eedfdf;
+  background-color: #fff;
   margin-top: 50px;
 }
 .membership-text {
@@ -394,8 +394,8 @@ nav ul li a:hover {
 }
 .find-more {
   padding: 10px 20px;
-  color: #6b1014;
-  background-color: #fff;
+  color: #fff;
+  background-color: #c91f25;
   border-radius: 20px;
   border: none;
   font-weight: 800;
@@ -408,8 +408,9 @@ nav ul li a:hover {
 }
 
 .find-more:hover {
-  background-color: #c91f25;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
 }
 
 .business-directory {
