@@ -606,40 +606,39 @@ footer {
 .row-event img {
   width: 330px;
 }
+
 .event-container {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
 }
+
 .event {
   display: flex;
-  justify-content: center; /* Center as a group */
-  gap: 30px; /* Space between items */
-  text-align: center;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  /* width: 90%; */
+  gap: 20px;
+  width: 80%;
   margin: 0 auto;
-  /* animation: scroll 18s linear infinite; */
 }
 
-.s-panel {
+.shoe img {
+  width: 430px;
+  height: 230px;
+}
+/* .s-panel {
   width: 390px;
   height: 224px;
   background-image: url(../images/solar.png);
   background-position: center;
-}
+} */
+/*  
 .s-camera {
-  width: 305px;
+  width: 295px;
   height: 224px;
   background-image: url(../images/camera.png);
   background-position: center;
-}
-.s-shoe {
-  width: 209px;
-  height: 224px;
-  background-image: url(../images/shoe.png);
-  background-position: left;
-}
+} */
+
+/* background-position: left; */
 
 .camera-container {
   width: 30%;
