@@ -24,6 +24,7 @@ header {
 }
 .nav-container {
   background-color: #c91f25;
+  width: 100%;
 }
 
 nav {
@@ -34,6 +35,8 @@ nav {
   width: 100%;
   height: 80px;
   margin: 0 auto;
+  /* position: fixed;
+  top: 0px; */
 }
 
 .logo-container img {
@@ -196,7 +199,7 @@ nav ul li a:hover {
   top: 0;
   left: 0;
   z-index: 0;
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
@@ -420,7 +423,7 @@ nav ul li a:hover {
 }
 
 .business-directory {
-  background-color: #eedfdf;
+  background-color: #eff2f3;
 }
 
 .Directory-container {
@@ -445,10 +448,15 @@ nav ul li a:hover {
   font-size: 27px;
 }
 .business-image {
-  background-image: url(../images/are\ you\ looking.png);
+  /* background-image: url(../images/are\ you\ looking.png); */
   width: 50%;
-  background-position: right;
+  background-position: left;
   background-size: cover;
+}
+
+.busi-image {
+  height: 100%;
+  margin-top: 20px;
 }
 .image-container {
   margin-top: 60px;
@@ -537,7 +545,7 @@ footer {
 
 .the-president {
   margin-top: 0.5px;
-  background-color: #eedfdf;
+  background-color: #eff2f3;
   min-height: 80vh;
   padding: 20px 0;
 }
@@ -546,7 +554,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  gap: 30px;
+  /* flex-direction: column; */
   margin-top: 10px;
 }
 .details {
@@ -554,12 +563,29 @@ footer {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background-color: white;
   border-radius: 10px;
-  max-width: 400px;
+  max-width: 340px;
+  height: 450px;
   text-align: center;
+  margin-left: 20px;
+}
+
+.details img {
+  width: 330px;
+  height: 350px;
+  /* margin-left: 20px; */
+}
+.name {
+  font-weight: 900;
+  font-size: 18px;
 }
 
 .pres-text {
   padding-top: 10px;
+  font-weight: 500;
+}
+
+.pres-state {
+  font-size: 24px;
 }
 .pres-details h1 {
   font-size: 18px;
@@ -663,8 +689,8 @@ footer {
   width: 100%;
 }
 .swiper-wrapper img {
-  width: 100px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   filter: grayscale(100%);
   transition: filter 0.4s ease-in-out;
 }
