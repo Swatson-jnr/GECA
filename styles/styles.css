@@ -215,7 +215,7 @@ nav ul li a:hover {
 .about {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: 150px;
+  margin-top: 76px;
   height: 100vh;
 }
 
@@ -369,7 +369,7 @@ nav ul li a:hover {
 .corporate img,
 .associate img,
 .student img {
-  width: 90px;
+  width: 150px;
   margin-bottom: 20px;
   border: 1px solid #fff;
   padding: 20px;
@@ -491,7 +491,7 @@ nav ul li a:hover {
   font-size: 16px;
 }
 footer {
-  background-color: #c91f25;
+  background-color: #000;
   color: #fff;
   width: 100%;
 }
@@ -501,7 +501,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 .last-killer {
@@ -536,8 +536,8 @@ footer {
 }
 
 .the-president {
-  margin-top: 50px;
-  background-color: #f3f4f6;
+  margin-top: 0.5px;
+  background-color: #eedfdf;
   min-height: 80vh;
   padding: 20px 0;
 }
