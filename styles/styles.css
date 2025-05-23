@@ -71,10 +71,18 @@ nav ul li a:hover {
 .sign-up {
   background: #6b1014;
   color: white;
-  padding: 14px 22px;
+  padding: 0px 13px;
   border-radius: 30px;
   cursor: pointer;
+  /* font-weight: 800; */
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
+  font-size: 20px;
+  width: 110px;
   border: 1px solid transparent;
   transition: all 0.4s ease-in-out;
 }
@@ -109,7 +117,7 @@ nav ul li a:hover {
   justify-content: center;
   color: #000;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .sub img {
@@ -130,7 +138,7 @@ nav ul li a:hover {
 }
 .welcoming-text {
   color: #fff;
-  height: 100vh; /* Changed from 70vh to 100vh */
+  height: 80vh; /* Changed from 70vh to 100vh */
   width: 100vw; /* Ensure full viewport width */
   position: relative;
   margin: 0;
@@ -182,6 +190,7 @@ nav ul li a:hover {
   font-family: "Lato";
   color: #c91f25;
   font-size: 50px;
+  color: #000;
   font-weight: 800;
 }
 
@@ -189,6 +198,8 @@ nav ul li a:hover {
   font-family: "Lato";
   color: #c91f25;
   font-size: 16px;
+  white-space: nowrap;
+  color: #000;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -220,7 +231,7 @@ nav ul li a:hover {
 .about {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: 126px;
+  margin-top: 6px;
   height: 100vh;
 }
 
@@ -426,6 +437,9 @@ nav ul li a:hover {
 
 .business-directory {
   background-color: #eff2f3;
+  background-image: url(../images/directory-image.jpg);
+  /* background-position: center; */
+  /* background-size: cover; */
 }
 
 .Directory-container {
@@ -439,14 +453,14 @@ nav ul li a:hover {
   width: 50%;
 }
 .Business-text h1 {
-  color: #6b1014;
+  color: #000;
   font-weight: 800;
   font-size: 36px;
   margin-bottom: 40px;
 }
 
 .Business-text p {
-  color: #6b1014;
+  color: #000;
   font-size: 27px;
 }
 .business-image {
@@ -561,8 +575,8 @@ footer {
   margin-top: 10px;
 }
 .details {
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   background-color: white;
   border-radius: 10px;
   max-width: 340px;
@@ -574,6 +588,7 @@ footer {
 .details img {
   width: 330px;
   height: 350px;
+  border-radius: 10px;
   /* margin-left: 20px; */
 }
 .name {
@@ -584,10 +599,11 @@ footer {
 .pres-text {
   padding-top: 10px;
   font-weight: 500;
+  font-size: 36px;
 }
 
 .pres-state {
-  font-size: 24px;
+  font-size: 20px;
 }
 .pres-details h1 {
   font-size: 18px;
@@ -685,7 +701,7 @@ footer {
 }
 .swiper-wrapper {
   display: flex;
-  gap: 10px;
+  gap: 40px;
   position: relative;
   width: 100%;
 }
