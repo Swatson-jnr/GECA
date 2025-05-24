@@ -138,7 +138,7 @@ nav ul li a:hover {
 }
 .welcoming-text {
   color: #fff;
-  height: 80vh; /* Changed from 70vh to 100vh */
+  height: 70vh; /* Changed from 70vh to 100vh */
   width: 100vw; /* Ensure full viewport width */
   position: relative;
   margin: 0;
@@ -219,7 +219,8 @@ nav ul li a:hover {
   width: 100vw;
   height: auto;
   object-fit: contain;
-
+  /* object-position: center top; */
+  object-position: center -70px;
   transition: transform 1s ease-in-out;
 }
 
@@ -231,12 +232,12 @@ nav ul li a:hover {
 .about {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: 6px;
+  margin-top: -64px;
   height: 100vh;
 }
 
 .about-us {
-  background-color: #feecdc;
+  background-color: #fff;
   display: inline;
   font-size: 17px;
   padding: 10px 15px;
@@ -437,9 +438,9 @@ nav ul li a:hover {
 
 .business-directory {
   background-color: #eff2f3;
-  background-image: url(../images/directory-image.jpg);
-  /* background-position: center; */
-  /* background-size: cover; */
+  background-image: url(../images/are\ you\ looking.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .Directory-container {
@@ -453,7 +454,7 @@ nav ul li a:hover {
   width: 50%;
 }
 .Business-text h1 {
-  color: #000;
+  color: #fff;
   font-weight: 800;
   font-size: 36px;
   margin-bottom: 20px;
@@ -461,7 +462,7 @@ nav ul li a:hover {
 }
 
 .Business-text p {
-  color: #000;
+  color: #fff;
   font-size: 27px;
 }
 .business-image {
@@ -552,7 +553,7 @@ footer {
 }
 
 .another {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 800;
 }
 
