@@ -18,10 +18,10 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- the start of the sub-navbar -->
       <div class="sub-nav">
-        <nav class="sub-nav-links">
+        <nav class="sub-nav-links container-fluid">
           <ul class="sub">
             <li>
               <a href=""
@@ -29,18 +29,19 @@
               >
             </li>
             <li>
-              <a href=""
+              <a href="" class="bd"
                 ><img src="./images/icons8-correct-50.png" alt="" />Find a
                 Member</a
               >
             </li>
             <li>
-              <a href=""
-                ><img src="./images/icons8-globe-50.png" alt="" />ECA Regions</a
+              <a href="" class="bd"
+                ><img src="./images/icons8-globe-50.png" alt="" />GECA
+                Regions</a
               >
             </li>
             <li>
-              <a href=""
+              <a href="" class="bd"
                 ><img
                   src="./images/icons8-phone-outline-32.png"
                   alt=""
@@ -54,19 +55,26 @@
 
       <!-- the actual navbar starts here -->
       <div class="nav-container">
-        <nav>
+        <nav class="">
           <div class="logo-container">
             <img src="./images/GECA LOGO WHITEt.png" alt="" />
           </div>
-
+          <div>
+            <img
+              id="open"
+              src="./images/menu_open.svg"
+              alt=""
+              class="open"
+              onClick="navOpen()"
+            />
+          </div>
           <ul class="second-nav">
-            <!-- <li><a href="">Home</a></li> -->
             <li><a href="#About">About</a></li>
             <li><a href="#Membership">Membership</a></li>
-            <li><a href="#Directory">Business Directory</a></li>
+            <li><a href="#Directory" class="bd">Business Directory</a></li>
             <li><a href="#Executives">Solidarity</a></li>
             <li><a href="#News">Events</a></li>
-            <li><a href="#Contact">Contact Us</a></li>
+            <li><a href="#Contact" class="bd">Contact Us</a></li>
 
             <div>
               <button class="sign-up">
@@ -78,6 +86,27 @@
               </button>
             </div>
           </ul>
+
+          <div class="res-nav" id="close">
+            <div class="text-end">
+              <img
+                src="./images/menu_close.svg"
+                alt=""
+                class="mt-2 mx-3 close"
+                id=""
+                onclick="navClose()"
+              />
+            </div>
+
+            <div class="res-nav-items">
+              <li><a href="#About">About</a></li>
+              <li><a href="#Membership">Membership</a></li>
+              <li><a href="#Directory" class="bd">Business Directory</a></li>
+              <li><a href="#Executives">Solidarity</a></li>
+              <li><a href="#News">Events</a></li>
+              <li><a href="#Contact" class="bd">Contact Us</a></li>
+            </div>
+          </div>
         </nav>
       </div>
       <!-- the end of the actual navbar -->
@@ -104,7 +133,7 @@
           <p>
             The Ghana Electrical Contractors' Association (GECA) is a
             member-based organization <br />established in 1948 as the voice of
-            Ghana's electrical industry. fugit, accusamus facere
+            Ghana's electrical industry.
           </p>
 
           <div>
@@ -124,52 +153,58 @@
 
     <section class="about">
       <div class="container d-flex gap-3">
-        <div class="about-text col-7">
-          <h1 id="About" class="about-us mb-4">About Us</h1>
+        <!--  -->
+        <div class="now">
+          <!--  -->
+          <div class="about-text">
+            <h4 id="About" class="about-us">About Us</h4>
 
-          <h2>PROFILE OF THE GHANA ELECTRICAL CONTRACTORS' ASSOCIATION</h2>
-          <p>
-            The Ghana Electrical Contractors' Association (GECA) is a
-            member-based organization established in 1948 as the voice of
-            Ghana's electrical industry. With representation in all 12 regions
-            of Ghana and headquartered in Accra, GECA has grown into a prominent
-            nationwide body. The Association is headed by a National Council
-            which consists of two executives from each region and the National
-            Executives, led by the President.
-          </p>
+            <h2>PROFILE OF THE GHANA ELECTRICAL CONTRACTORS' ASSOCIATION</h2>
+            <p>
+              The Ghana Electrical Contractors' Association (GECA) is a
+              member-based organization established in 1948 as the voice of
+              Ghana's electrical industry. With representation in all 12 regions
+              of Ghana and headquartered in Accra, GECA has grown into a
+              prominent nationwide body. The Association is headed by a National
+              Council which consists of two executives from each region and the
+              National Executives, led by the President.
+            </p>
 
-          <div class="about-experience">
-            <!-- experience -->
-            <div class="experience">
-              <h1>Experienced, Skilled <br />Team</h1>
-              <p>
-                To provide a focal point for meeting all licensed <br />
-                electrical contractors and practitioners for the purpose of
-                promoting safety and quality in the electrical construction
-                industry
-              </p>
+            <div class="about-experience container">
+              <!-- experience -->
+              <div class="experience">
+                <h1>Experienced, Skilled <br />Team</h1>
+                <p>
+                  To provide a focal point for meeting all licensed <br />
+                  electrical contractors and practitioners for the purpose
+                  <br />
+                  of promoting safety and quality in the electrical <br />
+                  construction industry
+                </p>
+              </div>
+              <!-- support bit -->
+              <div class="support">
+                <h1>Support 24/7</h1>
+                <p>
+                  To promote and maintain high level of professional standards
+                  among members
+                </p>
+              </div>
+              <!--  -->
             </div>
-            <!-- support bit -->
-            <div class="support">
-              <h1>Support 24/7</h1>
-              <p>
-                To promote and maintain high level of professional standards
-                among members
-              </p>
+
+            <!-- the learn more button -->
+            <div class="learn-more d-flex justify-content-between">
+              <button class="more">Learn More</button>
+              <button class="call">
+                Call Us Now: <span>233(0)598 551 301</span>
+              </button>
             </div>
           </div>
 
-          <!-- the learn more button -->
-          <div class="learn-more d-flex justify-content-between">
-            <button class="more">Learn More</button>
-            <button class="call">
-              Call Us Now: <span>233(0)598 551 301</span>
-            </button>
+          <div class="image-container">
+            <img src="./images/about.jpg" class="img-fluid squad" alt="" />
           </div>
-        </div>
-
-        <div class="image-container col-5">
-          <img src="./images/about.jpg" class="img-fluid" alt="" />
         </div>
       </div>
     </section>
@@ -229,15 +264,23 @@
       <div class="Directory-container container">
         <div class="Business-text col-12 col-lg-7 col-sm-12 mt-2">
           <h1 id="Directory">
-            Are you looking for a reliable Electrical service Provider?
+            Are you looking for a reliable <br />Electrical service Provider?
           </h1>
           <p>
-            Look no further. Download the Ghana Electrical Industry Business
-            Directory for a trrusted and reliable Electrical Contractors and
-            Dealers of electrical materials
+            Look no further. Download the Ghana Electrical <br />
+            Industry Business Directory for a trusted and <br />
+            reliable Electrical Contractors and Dealers of <br />
+            electrical materials
           </p>
           <div class="qr">
             <img src="./images/GECA_QRcode.PNG" alt="" class="qrcode" />
+          </div>
+          <div class="mt-3">
+            <a
+              class="qr-link"
+              href="https://drive.google.com/file/d/1PyiHhHf1bc88cer9tEPR1eGE_s1iTajs/view?usp=drivesdk"
+              >Click here</a
+            >
           </div>
         </div>
 
@@ -254,27 +297,31 @@
 
     <!-- the start of the meet the executive -->
     <section class="the-president">
+      <!-- <h1 id="Executives" class="text-center fw-bold pres-text">Solidarity</h1> -->
+
       <div class="container">
-        <h1 id="Executives" class="text-center fw-bold pres-text">
-          Solidarity
-        </h1>
-        <div class="pres-details text-center">
+        <div class="pres-details">
+          <div class="details col-7">
+            <img src="./images/awal.png" alt="" class="img-fluid" />
+          </div>
+
           <div class="pres-text col-5">
+            <h4 class="soli">
+              Solidarity Message From The President Of <br />
+              Ghana Electrical Contractors' Association
+            </h4>
+            <hr class="dsep" style="border: black" />
             <p class="pres-state">
-              "The Ghana Electrical Contractors Association (GECA) stands united
-              with all members and partners. Together, we uphold the values of
-              professionalism, safety, and service to our nation. In unity, we
-              build a stronger industry and a brighter future. GECA remains
-              committed to progress through support, collaboration, and shared
-              purpose."
+              "The Ghana Electrical Contractors Association (GECA) <br />
+              stands united with all members and partners. Together, we <br />
+              uphold the values of professionalism, safety, and service to
+              <br />
+              our nation. In unity, we build a stronger industry and a <br />
+              brighter future. GECA remains committed to progress <br />
+              through support, collaboration, and shared purpose."
             </p>
 
             <h4 class="name">- President, GECA</h4>
-          </div>
-          <div class="details col-7">
-            <img src="./images/awal.png" alt="" class="img-fluid" />
-            <h1>Awal Sakid Mohammed</h1>
-            <h6>President</h6>
           </div>
         </div>
       </div>
@@ -290,7 +337,7 @@
         Stay updated with expert insights in electrical contracting, solar
         energy, and home security.
       </p>
-      <div class="event-container">
+      <div class="event-container" id="event-container">
         <div class="event">
           <div class="shoe">
             <img src="./images/shoe.png" alt="" class="img-fluid" />
@@ -535,6 +582,8 @@
         },
       });
     </script>
+    <script src="./js/index.js"></script>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
