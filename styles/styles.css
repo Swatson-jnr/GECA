@@ -494,6 +494,7 @@ nav ul li a:hover {
   margin-left: 150px;
   /* margin: 0 auto; */
 }
+
 .Business-text h1 {
   color: #fff;
   font-weight: 600;
@@ -619,7 +620,7 @@ footer {
 }
 
 .the-president {
-  margin-top: 0.5px;
+  margin-top: 0px;
   background-color: #eff2f3;
   min-height: 70vh;
   padding: 20px 0;
