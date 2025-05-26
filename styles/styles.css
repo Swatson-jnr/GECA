@@ -485,25 +485,26 @@ nav ul li a:hover {
   display: flex;
   width: 90%;
   margin: 0 auto;
-  height: 80vh;
+  height: 100vh;
+  /* margin-top: 900px; */
 }
 
 .Business-text {
   width: 60%;
-  margin-left: 80px;
+  margin-left: 150px;
   /* margin: 0 auto; */
 }
 .Business-text h1 {
   color: #fff;
-  font-weight: 800;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 36px;
   margin-bottom: 20px;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .Business-text p {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 .business-image {
   /* background-image: url(../images/are\ you\ looking.png); */
@@ -630,9 +631,9 @@ footer {
   align-items: center;
   gap: 70px;
   width: 90%;
-  margin: 70px auto;
+  margin: 0px auto;
   /* flex-direction: column; */
-  /* margin-top: 70px; */
+  margin-top: 90px;
 }
 
 .details {
