@@ -358,14 +358,14 @@ nav ul li a:hover {
 }
 
 .member-header {
-  font-size: 34px;
+  font-size: 36px;
   padding-top: 60px;
-  font-weight: 800;
+  font-weight: 700;
   font-family: "Lato", sans-serif;
 }
 
 .various-mem {
-  font-size: 28px;
+  font-size: 16px;
   font-family: "Lato", sans-serif;
 }
 .membership-text h1 {
@@ -505,7 +505,7 @@ nav ul li a:hover {
 
 .Business-text p {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .business-image {
   /* background-image: url(../images/are\ you\ looking.png); */
@@ -677,6 +677,7 @@ footer {
   font-size: 16px;
   text-align: justify;
   font-family: "Lato";
+  width: 100%;
 }
 .pres-details h1 {
   font-size: 18px;
@@ -687,7 +688,7 @@ footer {
 .dsep {
   outline: none;
   border: none;
-  width: 85%;
+  width: 95%;
   height: 3px;
   border-radius: 50px;
   background: linear-gradient(to top, #000 50%, #000 50%);
