@@ -349,6 +349,10 @@ nav ul li a:hover {
   color: #000;
 }
 
+.more a {
+  color: #fff;
+  text-decoration: none;
+}
 .membership {
   background-color: #fff;
   margin-top: 50px;
@@ -544,7 +548,9 @@ nav ul li a:hover {
 .same {
   font-size: 16px;
 }
-
+.foot {
+  margin-top: 270px;
+}
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -936,117 +942,92 @@ footer {
   height: 100%;
 }
 
-.test {
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-  animation: slideInLeft 5s linear infinite;
-  width: 45%;
-  background-color: #fff;
-  padding: 1.5rem;
-  animation: slide 9s ease forwards;
-}
-
-.test:nth-child(1) {
-  animation-delay: 0s;
-}
-
-/* .test:nth-child(2) {
-  animation-delay: 10s;
-} */
-
-.d-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
-}
-
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.testimonial-wrapper {
-  position: relative;
-  width: 100%;
-  height: 250px; /* adjust based on content */
-  overflow: hidden;
+.monials {
+  margin-top: 90px;
 }
 
 .testimonials {
-  position: relative;
   width: 100%;
-  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  /* position: relative; */
 }
 
-/* Base styles for each testimonial */
+.testimonials h1 {
+  font-size: 28px;
+  color: #6b1014;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.testimonials h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.testimonials p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.testi-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* margin: 20px auto; */
+}
+
+.star {
+  width: 120px; /* Or smaller if needed */
+  height: auto;
+}
+
 .test {
   position: absolute;
   width: 100%;
-  left: -100%;
+  left: 0;
   opacity: 0;
-  transition: all 0.5s ease-in-out;
-  text-align: center;
-  padding: 20px;
-  font-size: 18px;
-  animation: slideInOutLong 5s linear infinite;
+  transform: translateX(-100%);
+  transition: none;
 }
 
-/* Animation keyframes
+.test.animate {
+  animation: slideInOut 12s ease-in-out forwards;
+  z-index: 1;
+}
+
 @keyframes slideInOut {
   0% {
-    left: -100%;
+    transform: translateX(-100%);
     opacity: 0;
   }
   10% {
-    left: 0;
-    opacity: 1;
-  }
-  20% {
-    left: 0;
-    opacity: 1;
-  }
-  30% {
-    left: 0;
-    opacity: 1;
-  }
-  40% {
-    left: 0;
-    opacity: 1;
-  }
-  50% {
-    left: 0;
-    opacity: 1;
-  }
-  60% {
-    left: 0;
-    opacity: 1;
-  }
-  70% {
-    left: 0;
+    transform: translateX(0);
     opacity: 1;
   }
   80% {
-    left: 100%;
-    opacity: 0;
-  }
-  90% {
-    left: 100%;
-    opacity: 0;
+    transform: translateX(0);
+    opacity: 1;
   }
   100% {
-    left: 100%;
+    transform: translateX(100%);
     opacity: 0;
   }
-} */
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container img {
+  width: 130px;
+}
+
 @keyframes slideInOutLong {
   0% {
     left: -100%;
@@ -1065,30 +1046,6 @@ footer {
     opacity: 0;
   }
 }
-
-/* First testimonial */
-.test:nth-child(1) {
-  animation: slideInOutLong 10s infinite;
-  z-index: 2;
-}
-
-/* Second testimonial starts after 5s */
-.test:nth-child(2) {
-  animation: slideInOutLong 10s infinite;
-  animation-delay: 5s;
-  z-index: 1;
-}
-/* .test:nth-child(3) {
-  animation: slideInOut 10s infinite;
-  animation-delay: 10s;
-  z-index: 1;
-}
-.test:nth-child(4) {
-  animation: slideInOut 15s infinite;
-  animation-delay: 15s;
-  z-index: 1;
-} */
-
 /* reposive design */
 @media (max-width: 1088px) {
   .open {
