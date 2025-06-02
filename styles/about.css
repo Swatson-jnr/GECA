@@ -480,3 +480,14 @@ footer {
   text-decoration: none;
   color: #000;
 }
+
+@media (max-width: 991px) {
+  .about {
+    height: 190vh;
+  }
+
+  .image-container img {
+    height: 590px;
+    margin-top: 50px;
+  }
+}
