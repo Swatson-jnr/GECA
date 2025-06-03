@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="./styles/readmore.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- the navbar -->
+    <div class="sub-nav">
+      <nav class="sub-nav-links container-fluid">
+        <ul class="sub">
+          <li>
+            <a href=""
+              ><img src="./images/icons8-search-100.png" alt="" />Search</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-correct-50.png" alt="" />Find a
+              Member</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-globe-50.png" alt="" />GECA Regions</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-phone-outline-32.png" alt="" />Contact
+              Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- the end of the sub-nav -->
+
+    <!-- the actual navbar starts here -->
+    <div class="nav-container">
+      <nav class="">
+        <div class="logo-container">
+          <a href="/index.html">
+            <img src="./images/GECA LOGO WHITEt.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <img
+            id="open"
+            src="./images/menu_open.svg"
+            alt=""
+            class="open"
+            onClick="navOpen()"
+          />
+        </div>
+        <ul class="second-nav">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Membership">Membership</a></li>
+          <li><a href="#Directory" class="bd">Business Directory</a></li>
+          <li><a href="#Executives">Solidarity</a></li>
+          <li><a href="#News">Events</a></li>
+          <li><a href="#Contact" class="bd">Contact Us</a></li>
+
+          <div>
+            <button class="sign-up">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+              >
+                Join GECA
+              </a>
+            </button>
+          </div>
+        </ul>
+
+        <div class="res-nav" id="close">
+          <div class="text-end">
+            <img
+              src="./images/menu_close.svg"
+              alt=""
+              class="mt-2 mx-3 close"
+              id=""
+              onclick="navClose()"
+            />
+          </div>
+
+          <div class="res-nav-items">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Membership">Membership</a></li>
+            <li><a href="#Directory" class="bd">Business Directory</a></li>
+            <li><a href="#Executives">Solidarity</a></li>
+            <li><a href="#News">Events</a></li>
+            <li><a href="#Contact" class="bd">Contact Us</a></li>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- the about section -->
+
+    <!-- the section home/about -->
+    <div class="container nav-back">
+      <div class="flex">
+        <a href="./index.html">Home</a>
+        <img src="./images/arrow-right.png" alt="" class="arrow" />
+        <a href="/" id="about-link">Read More</a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="cover-image">
+      <!-- <img src="./images/2151589648.jpg" alt="" /> -->
+    </div>
+
+    <section class="about">
+      <div class="elec-container">
+        <div class="electricity text-center">
+          <h1 class="text-center">Regular Member</h1>
+          <p>
+            Persons for admission as members in this category should be licensed
+            by the Electricity Company of Ghana, Energy Commission or any other
+            body recognized by the Government to Practice in the Electrical
+            Industry.
+          </p>
+        </div>
+        <div class="electricity text-center">
+          <h1 class="text-center">Corporate Member</h1>
+          <p>
+            A duly registered electrical company with the Registrar General’s
+            Department of Ghana with a verifiable record of incorporation. The
+            company must have at least one of its front-line technical staffs
+            having requisite licenses from the Energy Commission or the
+            Electricity Company of Ghana.
+          </p>
+        </div>
+        <div class="electricity text-center">
+          <h1 class="text-center">Associate Corporate Member</h1>
+          <p>
+            This membership is exclusive to manufacturers and dealers of
+            electrical and related materials duly registered by the Registrar
+            General's Department and approved by the Ghana Standards Authority
+            seeking to further their interest in the industry.
+          </p>
+        </div>
+        <div class="electricity text-center">
+          <h1 class="text-center">Associate Member</h1>
+          <p id="bogo">
+            Membership is open to university students, TVETS Students or
+            apprentices working under a licensed practitioner.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- the end of section -->
+
+    <!-- the begining of the footer -->
+
+    <footer class="foot">
+      <div class="container">
+        <!-- first section of the footer -->
+        <div class="row">
+          <div class="location mt-5 col-12 col-sm-3 col-md-3">
+            <h1 id="Contact" class="another">GECA</h1>
+            <h2 class="same">
+              3rd Floor Marble, <br />
+              South Industrial Area <br />(behind Toyota House), <br />
+              Greater Accra, Ghana
+            </h2>
+            <h4 class="same">ghanaeca@gmail.com</h4>
+            <h4 class="same">Mon - Fri: 8:30am - 4:30pm</h4>
+          </div>
+          <!-- end of the first section footer  -->
+
+          <div class="col-6 col-sm-3 col-md-3 mt-5 about-footer">
+            <h1 class="another">About Us</h1>
+
+            <ul class="footer-links">
+              <li><a href="#About">About</a></li>
+              <li><a href="#Membership">Membership</a></li>
+              <li><a href="#Directory">Business Directory</a></li>
+              <li><a href="#Executives">Solidarity</a></li>
+              <li><a href="#News">Events</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-6 col-sm-3 col-md-3 mt-5 last">
+            <h1 class="another">Category</h1>
+            <ul class="footer-links">
+              <li><a href="">Regular Member</a></li>
+              <li><a href="">corporate Member</a></li>
+              <li><a href="">Associate Corporate Member</a></li>
+              <li><a href="">Associate Member</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-12 col-sm-3 col-md-3 mt-5 last">
+            <h1 class="another">Call Us Now</h1>
+            <h2 class="same">For enquiries and more information</h2>
+            <h4 class="same">ghanaeca@gmail.com</h4>
+            <h4 class="same">+233(0)598 551 301</h4>
+
+            <button class="quote">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+                >Join GECA</a
+              >
+            </button>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/GECANATIONAL">
+                <img src="./images/FB.png" alt="" />
+              </a>
+              <a href="https://x.com/GecaNational?s=09">
+                <img src="./images/X.png" alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/ghanaelectrical_contass?igsh=MXdleTNweDhzMDM3OA=="
+              >
+                <img src="./images/IG.png" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ghana-electrical-contractors-association-geca-254644244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >
+                <img src="./images/IN.png" alt="" />
+              </a>
+              <a href="https://youtube.com/@gecanational?si=tLd6T7Yy1AKsjkIS">
+                <img src="./images/you.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+        </div>
+      </div>
+      <hr />
+      <p class="text-center m-0">
+        Copyright &#xA9; 2025 GECA: All right reserved
+      </p>
+      <div class="floating-icon">
+        <a href="https://whatsapp.com/channel/0029VaJGD753WHTck5yPrT1K">
+          <img src="./images/whatsapp.png" alt="" />
+          Get in Touch
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const testimonials = document.querySelectorAll(".test");
+      let current = 0;
+
+      function showNextTestimonial() {
+        // Remove 'animate' from all first
+        testimonials.forEach((test) => {
+          test.classList.remove("animate");
+        });
+
+        // Add 'animate' to the current testimonial
+        testimonials[current].classList.add("animate");
+
+        // After animation ends, go to next
+        current = (current + 1) % testimonials.length;
+      }
+
+      // First run
+      showNextTestimonial();
+
+      // Run every 12 seconds
+      setInterval(showNextTestimonial, 12000);
+    </script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

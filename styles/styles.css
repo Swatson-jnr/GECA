@@ -478,6 +478,11 @@ nav ul li a:hover {
   border: 1px solid black;
 }
 
+.find-more a {
+  color: #000;
+  text-decoration: none;
+}
+
 .business-directory {
   background-color: #eff2f3;
   background-image: url(../images/are\ you\ looking.png);
