@@ -219,7 +219,7 @@ nav ul li a:hover {
   color: #fff;
   font-size: 16px;
   font-weight: 200;
-  font-family: "Lato";
+  /* font-family: "Lato"; */
 }
 footer {
   background-color: #000;
@@ -364,6 +364,6 @@ footer {
 .same {
   font-size: 16px;
   font-weight: 200;
-  font-family: "Lato";
+  /* font-family: "Lato"; */
   /* color: gray; */
 }
