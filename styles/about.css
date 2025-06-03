@@ -179,7 +179,7 @@ nav ul li a:hover {
   font-family: "Lato";
   background-color: #c91f25;
   /* margin-top: 64px; */
-  height: 90vh;
+  height: 95vh;
   color: #fff;
 }
 
@@ -491,7 +491,7 @@ footer {
 
 @media (max-width: 991px) {
   .about {
-    height: 100vh;
+    height: 120vh;
   }
   #make {
     margin-top: 10px;
@@ -502,10 +502,16 @@ footer {
     margin-top: 50px;
   }
 }
+@media (max-width: 767px) {
+  .about {
+    margin-top: -90px;
+    height: 140vh;
+  }
+}
 @media (max-width: 620px) {
   .about {
     margin-top: -90px;
-    height: 100vh;
+    /* height: 150vh; */
   }
 
   .image-container img {
