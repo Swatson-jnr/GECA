@@ -370,6 +370,7 @@ nav ul li a:hover {
 
 .same {
   font-size: 16px;
+  color: gray;
 }
 
 .footer-links {
@@ -390,6 +391,7 @@ nav ul li a:hover {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
+  color: gray;
 }
 footer {
   background-color: #000;
