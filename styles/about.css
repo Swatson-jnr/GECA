@@ -179,7 +179,7 @@ nav ul li a:hover {
   font-family: "Lato";
   background-color: #c91f25;
   /* margin-top: 64px; */
-  height: 80vh;
+  height: 90vh;
   color: #fff;
 }
 
@@ -200,6 +200,8 @@ nav ul li a:hover {
 
 #make {
   margin-top: 30px;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .experience h1 {
