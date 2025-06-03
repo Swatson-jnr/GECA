@@ -177,35 +177,15 @@ nav ul li a:hover {
 
 .about {
   font-family: "Lato";
-  background-color: #c91f25;
+  background-color: #fff;
   /* margin-top: 64px; */
   height: 100vh;
-  color: #fff;
-  /* margin-top: 90px; */
+  color: #000;
+  margin-top: 100px;
 }
 
-.about-us {
-  background-color: #fff;
-  display: inline;
-  font-size: 17px;
-  padding: 10px 15px;
-  border-radius: 10px;
-  color: #6b1014;
-  font-weight: 900;
-  /* margin-bottom: 50px; */
-}
-
-.about-text h2 {
-  margin-top: 20px;
-}
-
-#make {
-  margin-top: 30px;
-}
-
-.elec-container {
-  padding-top: 50px;
-  /* margin-bottom: 30px; */
+.electricity h1 {
+  font-size: 32px;
 }
 
 .electricity {
@@ -218,11 +198,6 @@ nav ul li a:hover {
 }
 .location h2 {
   font-size: 16px;
-}
-
-.same {
-  font-size: 16px;
-  color: gray;
 }
 
 .footer-links {
@@ -243,7 +218,8 @@ nav ul li a:hover {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  color: gray;
+  font-weight: 200;
+  font-family: "Lato";
 }
 footer {
   background-color: #000;
@@ -383,4 +359,11 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -80px;
+}
+
+.same {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Lato";
+  /* color: gray; */
 }

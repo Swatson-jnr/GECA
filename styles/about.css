@@ -365,14 +365,17 @@ nav ul li a:hover {
 
 .location h1 {
   font-size: 18px;
+  font-weight: 200;
 }
 .location h2 {
   font-size: 16px;
+  font-weight: 200;
 }
 
 .same {
   font-size: 16px;
-  color: gray;
+  font-weight: 200;
+  /* color: gray; */
 }
 
 .footer-links {
@@ -393,7 +396,8 @@ nav ul li a:hover {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  color: gray;
+  font-weight: 200;
+  /* color: gray; */
 }
 footer {
   background-color: #000;
