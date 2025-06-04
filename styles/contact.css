@@ -381,9 +381,9 @@ footer {
   color: #000;
 }
 .same {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   color: #ddd;
-  /* font-family: "Lato"; */
+  font-family: "Lato";
   /* color: gray; */
 }
