@@ -39,5 +39,6 @@ const gecaRgion = document.getElementById("geca");
 const regionDropdown = document.getElementById("regions");
 
 gecaRgion.addEventListener("click", function () {
+  event.preventDefault();
   regionDropdown.classList.toggle("hidden");
 });

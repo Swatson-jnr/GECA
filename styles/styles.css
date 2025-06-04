@@ -842,10 +842,13 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  object-fit: cover;
 }
 .swiper-wrapper img {
   width: 80px;
   height: 80px;
+  padding: 0;
+  margin: 0;
   filter: grayscale(100%);
   transition: filter 0.4s ease-in-out;
 }
@@ -855,12 +858,6 @@ footer {
 
 .swiper {
   width: 100%;
-}
-
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .stakeholders-container {
