@@ -215,13 +215,13 @@ nav ul li a:hover {
 }
 
 .contact-text h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   font-size: 36px;
 }
 
 .get-in {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
 }
 
@@ -249,7 +249,7 @@ nav ul li a:hover {
   border: none;
   padding: 10px;
   font-size: 16px;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 form {
   display: flex;
