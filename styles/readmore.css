@@ -216,11 +216,11 @@ nav ul li a:hover {
 
 .footer-links a {
   text-decoration: none;
-  color: #fff;
-  font-size: 16px;
+  color: #ddd;
+  font-size: 14px;
   font-weight: 300;
-  /* font-family: "Lato"; */
 }
+
 footer {
   background-color: #000;
   color: #fff;
@@ -379,8 +379,13 @@ footer {
 }
 
 .same {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  /* font-family: "Lato"; */
-  /* color: gray; */
+  color: #ddd;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
 }

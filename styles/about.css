@@ -373,9 +373,9 @@ nav ul li a:hover {
 }
 
 .same {
-  font-size: 16px;
-  font-weight: 400;
-  /* color: gray; */
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
 }
 
 .footer-links {
@@ -394,11 +394,11 @@ nav ul li a:hover {
 
 .footer-links a {
   text-decoration: none;
-  color: #fff;
-  font-size: 16px;
+  color: #ddd;
+  font-size: 14px;
   font-weight: 300;
-  /* color: gray; */
 }
+
 footer {
   background-color: #000;
   color: #fff;
@@ -531,4 +531,10 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -80px;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
 }

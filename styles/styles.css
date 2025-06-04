@@ -473,13 +473,12 @@ nav ul li a:hover {
 }
 
 .find-more:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
   border: 1px solid black;
 }
 
 .find-more a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -1319,4 +1318,10 @@ footer {
   50% {
     transform: translateY(-25px);
   }
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
 }

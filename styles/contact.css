@@ -206,17 +206,23 @@ nav ul li a:hover {
 
 .contact-text h1 {
   display: inline;
-  font-size: 17px;
+  font-size: 14px;
   border-radius: 10px;
   color: #6b1014;
   font-weight: 900;
   margin-top: 50px;
   font-family: "Lato";
 }
+
 .contact-text h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
   font-size: 36px;
+}
+
+.get-in {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .contact-text p {
@@ -232,6 +238,7 @@ nav ul li a:hover {
 }
 
 .contact-form h3 {
+  font-size: 20px;
   font-weight: 900;
 }
 
@@ -285,9 +292,9 @@ form textarea {
   text-decoration: none;
   color: #ddd;
   font-size: 14px;
-  font-weight: 400;
-  /* font-family: "Lato"; */
+  font-weight: 300;
 }
+
 footer {
   background-color: #000;
   color: #fff;
@@ -381,9 +388,13 @@ footer {
   color: #000;
 }
 .same {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   color: #ddd;
-  font-family: "Lato";
-  /* color: gray; */
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
 }
