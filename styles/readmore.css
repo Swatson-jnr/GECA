@@ -345,10 +345,31 @@ footer {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 569px) {
   .about {
-    margin-top: -90px;
-    height: 10vh;
+    /* margin-top: -90px; */
+    height: 130vh;
+  }
+}
+@media (max-width: 553px) {
+  .about {
+    height: 140vh;
+  }
+}
+@media (max-width: 453px) {
+  .about {
+    height: 160vh;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 391px) {
+  .about {
+    /* padding: 40px 20px; */
+  }
+
+  #foot {
+    margin-top: 300px;
   }
 }
 
