@@ -831,11 +831,11 @@ footer {
     transform: translateX(-120%);
   }
 }
-.swiper-wrapper {
+.swiper-slide {
   display: flex;
-  gap: 40px;
-  position: relative;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .swiper-wrapper img {
   width: 80px;
@@ -1324,4 +1324,9 @@ footer {
   font-size: 14px;
   font-weight: 300;
   color: #ddd;
+}
+
+.efenergy {
+  border-radius: 40px;
+  width: 10px;
 }
