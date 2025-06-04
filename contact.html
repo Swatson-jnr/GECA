@@ -4,6 +4,278 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- the navbar -->
+    <div class="sub-nav">
+      <nav class="sub-nav-links container-fluid">
+        <ul class="sub">
+          <li>
+            <a href=""
+              ><img src="./images/icons8-search-100.png" alt="" />Search</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-correct-50.png" alt="" />Find a
+              Member</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-globe-50.png" alt="" />GECA Regions</a
+            >
+          </li>
+          <li>
+            <a href="" class="bd"
+              ><img src="./images/icons8-phone-outline-32.png" alt="" />Contact
+              Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- the end of the sub-nav -->
+
+    <!-- the actual navbar starts here -->
+    <div class="nav-container">
+      <nav class="">
+        <div class="logo-container">
+          <a href="/index.html">
+            <img src="./images/GECA LOGO WHITEt.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <img
+            id="open"
+            src="./images/menu_open.svg"
+            alt=""
+            class="open"
+            onClick="navOpen()"
+          />
+        </div>
+        <ul class="second-nav">
+          <li><a href="#Membership">Membership</a></li>
+          <li><a href="#Directory" class="bd">Business Directory</a></li>
+          <li><a href="#Executives">Solidarity</a></li>
+          <li><a href="#News">Events</a></li>
+          <li><a href="#Contact" class="bd">Contact Us</a></li>
+
+          <div>
+            <button class="sign-up">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+              >
+                Join GECA
+              </a>
+            </button>
+          </div>
+        </ul>
+
+        <div class="res-nav" id="close">
+          <div class="text-end">
+            <img
+              src="./images/menu_close.svg"
+              alt=""
+              class="mt-2 mx-3 close"
+              id=""
+              onclick="navClose()"
+            />
+          </div>
+
+          <div class="res-nav-items">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Membership">Membership</a></li>
+            <li><a href="#Directory" class="bd">Business Directory</a></li>
+            <li><a href="#Executives">Solidarity</a></li>
+            <li><a href="#News">Events</a></li>
+            <li><a href="#Contact" class="bd">Contact Us</a></li>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--  -->
+    <!-- google maps -->
+    <section>
+      <div class="container-fluid">
+        <div class="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.0515363707186!2d-0.22227909999999998!3d5.5593802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf915d2a4b4bd1%3A0x84bab4c170ea4c6c!2sGhana%20Electrical%20Contractors%20Association%20(GECA)!5e0!3m2!1sen!2sgh!4v1748997170651!5m2!1sen!2sgh"
+            width="1340"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- end of the map -->
+
+    <!-- the contact section -->
+    <section class="cont">
+      <div class="container">
+        <div class="holder">
+          <!--  -->
+          <div class="contact-text col-6">
+            <h1>CONTACT US</h1>
+            <h3>Get In Touch With US</h3>
+            <p>
+              Reach out today for expert guidance, service inquiries, or
+              personalized solutions. We're here to support your project every
+              step of the way!
+            </p>
+            <div>
+              <div class="loc-details">
+                <img
+                  src="./images/ilocation (1).png"
+                  alt=""
+                  class="loc-image"
+                />
+                <p>
+                  3rd Floor Marble, South Industrial Area(behind Toyota House),
+                  <br />
+                  Greater Accra, Ghana
+                </p>
+              </div>
+              <div class="loc-details">
+                <img
+                  src="./images/ilocation (2).png"
+                  alt=""
+                  class="loc-image"
+                />
+                <p>ghanaeca@gmail.com</p>
+              </div>
+              <div class="loc-details">
+                <img
+                  src="./images/ilocation (3).png"
+                  alt=""
+                  class="loc-image"
+                />
+                <p>+233(0)598 551 301</p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="contact-form col-7">
+            <h3>Contact us</h3>
+            <form action="">
+              <input type="text" name="name" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Your Email" />
+
+              <select name="services" id="">
+                <option value="choose">Choose Services</option>
+                <option value="choose">Electrical Contracting</option>
+                <option value="choose">Solar PV System</option>
+                <option value="choose">Security Systems</option>
+              </select>
+
+              <textarea
+                name="comment"
+                id=""
+                placeholder="write your comment here"
+              >
+              </textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="foot">
+      <div class="container">
+        <!-- first section of the footer -->
+        <div class="row">
+          <div class="location mt-5 col-12 col-sm-3 col-md-3">
+            <h1 id="Contact" class="another">GECA</h1>
+            <h2 class="same">
+              3rd Floor Marble, <br />
+              South Industrial Area <br />(behind Toyota House), <br />
+              Greater Accra, Ghana
+            </h2>
+            <h4 class="same">ghanaeca@gmail.com</h4>
+            <h4 class="same">Mon - Fri: 8:30am - 4:30pm</h4>
+          </div>
+          <!-- end of the first section footer  -->
+
+          <div class="col-6 col-sm-3 col-md-3 mt-5 about-footer">
+            <h1 class="another">About Us</h1>
+
+            <ul class="footer-links">
+              <li><a href="#Membership">Membership</a></li>
+              <li><a href="#Directory">Business Directory</a></li>
+              <li><a href="#Executives">Solidarity</a></li>
+              <li><a href="#News">Events</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-6 col-sm-3 col-md-3 mt-5 last">
+            <h1 class="another">Category</h1>
+            <ul class="footer-links">
+              <li><a href="">Regular Member</a></li>
+              <li><a href="">corporate Member</a></li>
+              <li><a href="">Associate Corporate Member</a></li>
+              <li><a href="">Associate Member</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-12 col-sm-3 col-md-3 mt-5 last">
+            <h1 class="another">Call Us Now</h1>
+            <h2 class="same">For enquiries and more information</h2>
+            <h4 class="same">ghanaeca@gmail.com</h4>
+            <h4 class="same">+233(0)598 551 301</h4>
+
+            <button class="quote">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+                >Join GECA</a
+              >
+            </button>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/GECANATIONAL">
+                <img src="./images/FB.png" alt="" />
+              </a>
+              <a href="https://x.com/GecaNational?s=09">
+                <img src="./images/X.png" alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/ghanaelectrical_contass?igsh=MXdleTNweDhzMDM3OA=="
+              >
+                <img src="./images/IG.png" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ghana-electrical-contractors-association-geca-254644244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >
+                <img src="./images/IN.png" alt="" />
+              </a>
+              <a href="https://youtube.com/@gecanational?si=tLd6T7Yy1AKsjkIS">
+                <img src="./images/you.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+        </div>
+      </div>
+      <hr />
+      <p class="text-center m-0">
+        Copyright &#xA9; 2025 GECA: All right reserved
+      </p>
+      <div class="floating-icon">
+        <a href="https://whatsapp.com/channel/0029VaJGD753WHTck5yPrT1K">
+          <img src="./images/whatsapp.png" alt="" />
+          Get in Touch
+        </a>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
