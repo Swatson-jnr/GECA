@@ -34,3 +34,10 @@ showNextTestimonial();
 
 // Run every 12 seconds
 setInterval(showNextTestimonial, 12000);
+
+const gecaRgion = document.getElementById("geca");
+const regionDropdown = document.getElementById("regions");
+
+gecaRgion.addEventListener("click", function () {
+  regionDropdown.classList.toggle("hidden");
+});
