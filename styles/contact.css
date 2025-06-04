@@ -398,3 +398,18 @@ footer {
   font-weight: 300;
   color: #ddd;
 }
+
+@media (max-width: 779px) {
+  .holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-text {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
