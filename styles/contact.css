@@ -267,13 +267,6 @@ form textarea {
   /* font-weight: 00; */
 }
 
-.location h1 {
-  font-size: 18px;
-}
-.location h2 {
-  font-size: 16px;
-}
-
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -290,9 +283,9 @@ form textarea {
 
 .footer-links a {
   text-decoration: none;
-  color: #fff;
+  color: #ddd;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   /* font-family: "Lato"; */
 }
 footer {
@@ -389,7 +382,8 @@ footer {
 }
 .same {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #ddd;
   /* font-family: "Lato"; */
   /* color: gray; */
 }
