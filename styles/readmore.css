@@ -364,12 +364,8 @@ footer {
 }
 
 @media (max-width: 391px) {
-  .about {
-    /* padding: 40px 20px; */
-  }
-
   #foot {
-    margin-top: 300px;
+    margin-top: 90px;
   }
 }
 
