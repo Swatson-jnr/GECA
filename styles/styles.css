@@ -1201,10 +1201,10 @@ footer {
     height: 81vh;
   }
   .carousel-item img {
-    height: 100vh;
-    width: 100vw;
+    height: 40vh;
+    /* width: 40px; */
     object-fit: cover;
-    object-position: right -40px;
+    object-position: center 70px;
   }
 
   .about {
@@ -1281,6 +1281,10 @@ footer {
   .join {
     width: 40%;
   }
+
+  .foot {
+    margin-top: 381px;
+  }
 }
 
 @media (max-width: 659px) {
@@ -1316,7 +1320,6 @@ footer {
 
   .pres-state {
     width: 130%;
-    /* margin-right: 20000000px; */
   }
 }
 
