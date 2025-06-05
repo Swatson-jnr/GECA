@@ -389,6 +389,8 @@ nav ul li a:hover {
 .membership {
   background-color: #fff;
   margin-top: 50px;
+  text-align: center;
+  width: 100%;
 }
 .membership-text {
   color: #000;
@@ -426,8 +428,9 @@ nav ul li a:hover {
 
 .various-icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   width: 80%;
   margin: 40px auto;
   color: #fff;
@@ -1100,7 +1103,7 @@ footer {
     height: 100%;
     gap: 30px;
     background-color: #1f0016;
-    z-index: 4;
+    z-index: 400;
     transition: all 0.5s;
     right: 0;
     animation: show 0.2s linear;
@@ -1242,9 +1245,19 @@ footer {
 @media (max-width: 879px) {
   .various-icons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     /* width: 80%; */
-    margin-left: 170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .regular,
+  .corporate,
+  .associate,
+  .student {
+    width: 100%; /* Or auto if you want the content width only */
+    margin-top: 10px; /* Reset or adjust if necessary */
   }
 }
 
@@ -1286,12 +1299,12 @@ footer {
 }
 @media (max-width: 600px) {
   .various-icons {
-    margin-left: 140px;
+    /* margin-left: 140px; */
   }
 }
 @media (max-width: 489px) {
   .various-icons {
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
 }
 
