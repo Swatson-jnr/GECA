@@ -389,3 +389,72 @@ footer {
   font-weight: 300;
   color: #ddd;
 }
+
+@media (max-width: 1088px) {
+  .open {
+    display: block;
+    cursor: pointer;
+  }
+  .sub-nav {
+    display: none;
+  }
+
+  .second-nav {
+    display: none;
+    overflow: hidden;
+  }
+
+  .hero-text {
+    width: 50%;
+    height: 70%;
+    padding: 10px 20px;
+  }
+  .hero-text h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    text-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .res-nav {
+    /* display: block; */
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    gap: 30px;
+    background-color: #1f0016;
+    z-index: 400;
+    transition: all 0.5s;
+    right: 0;
+    animation: show 0.2s linear;
+    /* right: -350px; */
+  }
+  .close {
+    text-align: end;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .now {
+    margin-top: 0px;
+  }
+  .about {
+    margin-top: -180px;
+  }
+}
