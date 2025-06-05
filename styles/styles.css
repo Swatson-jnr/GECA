@@ -1063,6 +1063,35 @@ footer {
   }
 }
 /* reposive design */
+
+@media (max-width: 1050px) {
+  .business-directory {
+    height: 50vh;
+    background-position: right -39px;
+    background-color: #fff;
+  }
+  .Business-text {
+    display: none;
+  }
+
+  .Business-sub-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .qr {
+    justify-content: center;
+  }
+
+  .qr-link {
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 20px;
+  }
+  .qr-link a {
+    color: black;
+  }
+}
 @media (max-width: 1088px) {
   .open {
     display: block;
