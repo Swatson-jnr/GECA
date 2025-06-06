@@ -77,14 +77,21 @@ nav ul li {
   /* margin-left: 30px; */
   font-size: 20px;
   font-family: "Lato";
-  border-bottom: 0.5px solid #fff;
+  border-bottom: 0.5px solid #000;
   margin-bottom: 5px;
+  /* cursor: pointer; */
 }
 
-nav ul li a,
-.res-nav-items a {
+nav ul li a {
   text-decoration: none;
   color: #fff;
+  transition: 0.5s ease-in-out;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.res-nav-items a {
+  text-decoration: none;
+  color: #000;
   transition: 0.5s ease-in-out;
   margin-top: 15px;
   margin-left: 10px;
@@ -167,7 +174,7 @@ nav ul li a:hover {
 .welcoming-text {
   color: #fff;
 
-  height: 70vh;
+  height: 60vh;
 
   position: relative;
   margin: 0;
@@ -250,7 +257,7 @@ nav ul li a:hover {
   font-family: "Lato";
   color: #c91f25;
   font-size: 16px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   color: #000;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -293,12 +300,12 @@ nav ul li a:hover {
 .about {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: -64px;
+  margin-top: -174px;
   height: 110vh;
 }
 
 .now {
-  margin-top: 60px;
+  margin-top: 70px;
   display: flex;
   gap: 30px;
 }
@@ -432,7 +439,7 @@ nav ul li a:hover {
   /* justify-content: center; */
   /* align-items: center; */
   width: 80%;
-  margin: 40px auto;
+  margin: 20px auto;
   color: #fff;
 }
 
@@ -465,7 +472,7 @@ nav ul li a:hover {
 .associate img,
 .student img {
   width: 150px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid #fff;
   padding: 20px;
   /* border-radius: 50%; */
@@ -477,7 +484,8 @@ nav ul li a:hover {
 .corporate img:hover,
 .associate img:hover,
 .student img:hover {
-  background-color: #fff;
+  /* background-color: #fff; */
+  transform: scale(1.09);
 }
 .regular h1,
 .corporate h1,
@@ -1062,6 +1070,10 @@ footer {
     opacity: 0;
   }
 }
+
+.Business-sub-text {
+  display: none;
+}
 /* reposive design */
 
 @media (max-width: 1050px) {
@@ -1075,6 +1087,7 @@ footer {
   }
 
   .Business-sub-text {
+    display: block;
     text-align: center;
     margin-top: 10px;
   }
@@ -1131,7 +1144,7 @@ footer {
     width: 350px;
     height: 100%;
     gap: 30px;
-    background-color: #1f0016;
+    background-color: #fff;
     z-index: 400;
     transition: all 0.5s;
     right: 0;
@@ -1161,12 +1174,24 @@ footer {
   }
 }
 
+@media (max-width: 1087px) {
+  /* .about {
+    margin-top: -130px;
+  }
+  .now {
+    margin-top: -90px;
+  } */
+  .about {
+    margin-top: -280px;
+  }
+}
+
 @media (max-width: 991px) {
   .image-container {
     display: none;
   }
   .about {
-    margin-top: -250px;
+    margin-top: -280px;
   }
 
   .about-text {
@@ -1188,6 +1213,9 @@ footer {
   .hero-text {
     position: absolute;
     top: 170px;
+  }
+  .about {
+    /* margin-top: -30px; */
   }
 }
 
@@ -1227,17 +1255,17 @@ footer {
   }
 
   header {
-    height: 81vh;
+    height: 78vh;
   }
   .carousel-item img {
     height: 45vh;
     /* width: 40px; */
     object-fit: cover;
-    object-position: 85% 40%;
+    /* object-position: 85% 40%; */
   }
 
   .about {
-    margin-top: 0px;
+    margin-top: -90px;
   }
 }
 
@@ -1286,13 +1314,23 @@ footer {
   .associate,
   .student {
     width: 100%; /* Or auto if you want the content width only */
-    margin-top: 10px; /* Reset or adjust if necessary */
+    /* margin-top: 10px; Reset or adjust if necessary */
+  }
+
+  .regular img,
+  .corporate img,
+  .associate img,
+  .student img {
+    /* margin-bottom: 20px; */
+    border: none;
+    padding-bottom: 0px;
   }
 }
 
 @media (max-width: 767px) {
   .about {
     height: 130vh;
+    margin-top: -90px;
   }
 }
 @media (max-width: 674px) {
@@ -1330,16 +1368,16 @@ footer {
     font-size: 13px;
   }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .various-icons {
-    /* margin-left: 140px; */
+    margin-left: 140px;
   }
-}
-@media (max-width: 489px) {
+} */
+/* @media (max-width: 489px) {
   .various-icons {
-    /* margin-left: 100px; */
+    margin-left: 100px;
   }
-}
+} */
 
 @media (max-width: 589px) {
   .pres-details {
@@ -1354,9 +1392,13 @@ footer {
 
 @media (max-width: 480px) {
   .about {
-    height: 140vh;
+    height: 127vh;
+    /* margin-top: 0px; */
   }
 
+  .now {
+    margin-top: 30px;
+  }
   .learn-more {
     display: flex;
     flex-direction: column;
@@ -1376,9 +1418,9 @@ footer {
   }
 }
 
-@media (max-width: 419px) {
+@media (max-width: 420px) {
   .about {
-    height: 150vh;
+    height: 100vh;
   }
 
   .learn-more {
