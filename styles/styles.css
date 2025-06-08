@@ -1214,9 +1214,9 @@ footer {
     position: absolute;
     top: 170px;
   }
-  .about {
-    /* margin-top: -30px; */
-  }
+  /* .about { */
+  /* margin-top: -30px; */
+  /* } */
 }
 
 @media (max-width: 941px) {
@@ -1392,7 +1392,7 @@ footer {
 
 @media (max-width: 480px) {
   .about {
-    height: 127vh;
+    height: 147vh;
     /* margin-top: 0px; */
   }
 
@@ -1420,7 +1420,7 @@ footer {
 
 @media (max-width: 420px) {
   .about {
-    height: 100vh;
+    height: 155vh;
   }
 
   .learn-more {
@@ -1430,6 +1430,29 @@ footer {
   .call {
     white-space: nowrap;
     width: 80%;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-text {
+    height: 60vh;
+  }
+
+  .hero-text h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .join {
+    white-space: nowrap;
+    margin-top: 0;
+    /* padding-top: 0; */
   }
 }
 
