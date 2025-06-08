@@ -66,14 +66,14 @@ nav ul li {
   /* margin-left: 30px; */
   font-size: 20px;
   font-family: "Lato";
-  border-bottom: 0.5px solid #fff;
+  border-bottom: 0.5px solid #000;
   margin-bottom: 5px;
 }
 
 nav ul li a,
 .res-nav-items a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   transition: 0.5s ease-in-out;
   margin-top: 15px;
   margin-left: 10px;
@@ -429,7 +429,6 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
   .res-nav {
     /* display: block; */
     position: fixed;
@@ -439,7 +438,7 @@ footer {
     width: 350px;
     height: 100%;
     gap: 30px;
-    background-color: #1f0016;
+    background-color: #fff;
     z-index: 400;
     transition: all 0.5s;
     right: 0;

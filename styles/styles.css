@@ -288,7 +288,7 @@ nav ul li a:hover {
   height: auto;
   object-fit: contain;
   /* object-position: center top; */
-  object-position: center -70px;
+  object-position: 85% 40%;
   transition: transform 1s ease-in-out;
 }
 

@@ -90,7 +90,7 @@
         <div class="res-nav" id="close">
           <div class="text-end">
             <img
-              src="./images/menu_close.svg"
+              src="./images/icons8-cross-90.png"
               alt=""
               class="mt-2 mx-3 close"
               id=""
@@ -279,6 +279,22 @@
 
       // Run every 12 seconds
       setInterval(showNextTestimonial, 12000);
+    </script>
+    <script>
+      // Navigation functions (keep your existing ones)
+      const navClose = () => {
+        const closeNav = document.getElementById("close");
+        if (closeNav) {
+          closeNav.style.display = "none";
+        }
+      };
+
+      const navOpen = () => {
+        const closeNav = document.getElementById("close");
+        if (closeNav) {
+          closeNav.style.display = "block";
+        }
+      };
     </script>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
