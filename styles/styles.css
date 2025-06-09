@@ -1473,7 +1473,7 @@ footer {
 
 @media (max-width: 414px) {
   .hero-text {
-    margin-top: 40px;
+    margin-top: 20px;
     /* z-index: 900; */
     height: 49vh;
   }
