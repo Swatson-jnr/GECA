@@ -194,6 +194,7 @@ nav ul li a:hover {
   cursor: pointer;
   border: none;
   width: 200px;
+  /* margin-bottom: 90px; */
   border: 1px solid transparent;
   transition: all 0.4s ease-in-out;
 }
@@ -1267,6 +1268,13 @@ footer {
   .about {
     margin-top: -90px;
   }
+  .hero-text p {
+    margin-bottom: 0px;
+  }
+  .join {
+    width: 170px;
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1341,12 +1349,16 @@ footer {
     display: none;
   } */
 
+  .hero-text {
+  }
+
   .hero-text h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
   .join {
     width: 40%;
+    margin-top: 20px;
   }
 
   .foot {
@@ -1435,7 +1447,9 @@ footer {
 
 @media (max-width: 430px) {
   .hero-text {
-    height: 60vh;
+    height: 50vh;
+    /* margin-top: 30px; */
+    padding: 0px;
   }
 
   .hero-text h2 {
@@ -1452,6 +1466,7 @@ footer {
   .join {
     white-space: nowrap;
     margin-top: 0;
+    margin-top: 10px;
     /* padding-top: 0; */
   }
 }
@@ -1460,6 +1475,22 @@ footer {
   .learn-more {
     display: none;
     opacity: 0;
+  }
+}
+@media (max-width: 370px) {
+  .hero-text {
+    height: 55vh;
+  }
+  .hero-text h2 {
+    margin-top: 9px;
+  }
+
+  .hero-text p {
+    margin-bottom: 0px;
+  }
+
+  .join {
+    margin-top: 0px;
   }
 }
 
