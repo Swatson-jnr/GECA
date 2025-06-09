@@ -299,14 +299,15 @@ nav ul li a:hover {
 }
 
 /* the styling for the about section */
-.about {
+.them {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: -154px;
-  height: 115vh;
+  /* margin-top: -154px;
+  height: 115vh; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -90px;
 }
 
 .now {
@@ -325,7 +326,7 @@ nav ul li a:hover {
   border-radius: 10px;
   color: #6b1014;
   font-weight: 900;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .about-us .about h1 {
@@ -343,8 +344,8 @@ nav ul li a:hover {
   color: #fff;
 }
 
-.about-text h2 {
-  margin-top: 20px;
+.them-text h2 {
+  font-family: "Lato";
   font-size: 36px;
   color: #fff;
 }
@@ -1174,13 +1175,8 @@ footer {
     }
   }
 
-  .now {
-    margin-top: 0px;
-  }
-  .about {
-    margin-top: -90px;
-    padding-top: 130px;
-    height: 140vh;
+  .them {
+    margin-top: -190px;
   }
 }
 
@@ -1265,7 +1261,7 @@ footer {
   }
 
   header {
-    height: 78vh;
+    height: 100vh;
   }
   .carousel-item img {
     height: 45vh;
@@ -1274,15 +1270,16 @@ footer {
     /* object-position: 85% 40%; */
   }
 
-  .about {
-    margin-top: -90px;
-  }
   .hero-text p {
     margin-bottom: 0px;
   }
   .join {
     width: 170px;
     margin-top: 0px;
+  }
+
+  .them {
+    margin-top: -115px;
   }
 }
 
@@ -1439,19 +1436,19 @@ footer {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 431px) {
   .about {
     height: 115vh;
     padding-top: 80px;
   }
 
   .hero-text {
-    margin-top: 70px;
+    margin-top: 0px;
     /* height: 40vh; */
   }
 
   .hero-text p {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-top: 20px;
   }
 
@@ -1496,20 +1493,21 @@ footer {
 
 @media (max-width: 414px) {
   .hero-text {
-    /* margin-top: 20px; */
-    /* z-index: 900; */
-    height: 49vh;
   }
 
-  .hero-text h2 {
+  /* .hero-text h2 {
     width: 70%;
     text-wrap: wrap;
     margin-bottom: 0px;
     padding-top: 7px;
+  } */
+  .hero-text h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .hero-text p {
-    padding-bottom: 9px;
+    padding-bottom: 0px;
   }
   .about {
     height: 140vh;
@@ -1532,11 +1530,11 @@ footer {
     align-items: center;
   }
   .hero-text h2 {
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
   .hero-text p {
     padding-top: 0px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 
   .more {
@@ -1557,17 +1555,18 @@ footer {
 
 @media (max-width: 390px) {
   .hero-text {
-    margin-top: 29px;
+    margin-top: 0px;
   }
 
   .hero-text p {
-    padding-top: 9px;
+    padding-top: 0px;
   }
 }
 
 @media (max-width: 375px) {
   .hero-text {
-    margin-top: 10px;
+    /* margin-top: 0px; */
+    padding: 0px;
   }
 
   .hero-text h2 {
@@ -1592,12 +1591,12 @@ footer {
     height: 55vh;
   }
   .hero-text h2 {
-    margin-top: 29px;
+    margin-top: 9px;
   }
 
   .hero-text p {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-top: 5px;
   }
 
   .join {
