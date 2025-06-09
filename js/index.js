@@ -1,8 +1,30 @@
 // Navigation functions (keep your existing ones)
+// const navClose = () => {
+//   const closeNav = document.getElementById("close");
+//   if (closeNav) {
+//     closeNav.style.display = "none";
+//   }
+// };
+
+// const navOpen = () => {
+//   const closeNav = document.getElementById("close");
+//   if (closeNav) {
+//     closeNav.style.display = "block";
+//   }
+// };
+// const handleOutsideClick = (event) => {
+//   const closeNav = document.getElementById("close");
+//   if (closeNav && !closeNav.contains(event.target)) {
+//     navClose();
+//   }
+// };
+
 const navClose = () => {
   const closeNav = document.getElementById("close");
   if (closeNav) {
     closeNav.style.display = "none";
+    // Remove outside click listener when closed
+    document.removeEventListener("click", handleOutsideClick);
   }
 };
 
@@ -10,6 +32,17 @@ const navOpen = () => {
   const closeNav = document.getElementById("close");
   if (closeNav) {
     closeNav.style.display = "block";
+    // Add outside click listener
+    setTimeout(() => {
+      document.addEventListener("click", handleOutsideClick);
+    }, 0); // Delay to avoid immediate trigger on open click
+  }
+};
+
+const handleOutsideClick = (event) => {
+  const closeNav = document.getElementById("close");
+  if (closeNav && !closeNav.contains(event.target)) {
+    navClose();
   }
 };
 

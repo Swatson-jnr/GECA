@@ -174,7 +174,7 @@ nav ul li a:hover {
 .welcoming-text {
   color: #fff;
 
-  height: 60vh;
+  height: 70vh;
 
   position: relative;
   margin: 0;
@@ -275,7 +275,7 @@ nav ul li a:hover {
 
 .carousel {
   width: 100vw;
-  height: 100vh; /* Match the container height */
+  height: 160vh; /* Match the container height */
   position: absolute; /* Position absolutely within welcoming-text */
   top: 0;
   left: 0;
@@ -288,6 +288,7 @@ nav ul li a:hover {
   width: 100vw;
   height: auto;
   object-fit: contain;
+
   /* object-position: center top; */
   object-position: 85% 40%;
   transition: transform 1s ease-in-out;
@@ -301,8 +302,8 @@ nav ul li a:hover {
 .about {
   font-family: "Lato";
   background-color: #c91f25;
-  margin-top: -174px;
-  height: 110vh;
+  margin-top: -154px;
+  height: 115vh;
 }
 
 .now {
@@ -964,7 +965,7 @@ footer {
 /* Fix for centering carousel items */
 .carousel-inner {
   width: 100%;
-  height: 100%;
+  height: 130vh;
 }
 
 .monials {
@@ -1106,6 +1107,9 @@ footer {
     color: black;
   }
 }
+
+@media (max-width: 1200px) {
+}
 @media (max-width: 1088px) {
   .open {
     display: block;
@@ -1143,7 +1147,7 @@ footer {
     align-items: start;
     top: 0;
     width: 350px;
-    height: 100%;
+    height: 50%;
     gap: 30px;
     background-color: #fff;
     z-index: 400;
@@ -1569,7 +1573,7 @@ footer {
   padding: 20px;
   overflow-y: scroll;
   border-radius: 5px;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 
 .hidden {
