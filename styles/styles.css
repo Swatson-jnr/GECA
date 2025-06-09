@@ -1500,6 +1500,9 @@ footer {
     text-wrap: wrap;
     margin-bottom: 10px;
   }
+  .about {
+    height: 130vh;
+  }
 }
 @media (max-width: 364px) {
   .learn-more {
