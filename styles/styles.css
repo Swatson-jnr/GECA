@@ -1434,11 +1434,25 @@ footer {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .about {
-    height: 155vh;
+    height: 115vh;
+    padding-top: 80px;
   }
 
+  .hero-text {
+    margin-top: 70px;
+    /* height: 40vh; */
+  }
+
+  .hero-text p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .join {
+    margin-bottom: 0;
+  }
   .learn-more {
     margin-top: 0;
   }
