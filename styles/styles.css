@@ -1474,6 +1474,7 @@ footer {
 @media (max-width: 414px) {
   .hero-text {
     margin-top: 60px;
+    z-index: 900;
   }
   .hero-text h2 {
     width: 70%;
