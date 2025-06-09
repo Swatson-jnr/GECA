@@ -1506,8 +1506,28 @@ footer {
 }
 @media (max-width: 364px) {
   .learn-more {
-    display: none;
-    opacity: 0;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text h2 {
+    padding-top: 10px;
+  }
+  .hero-text p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .more {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .about {
+    height: 160vh;
   }
 }
 @media (max-width: 370px) {
