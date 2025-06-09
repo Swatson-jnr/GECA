@@ -1459,18 +1459,28 @@ footer {
   }
 
   .hero-text p {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
   }
 
   .join {
     white-space: nowrap;
-    margin-top: 0;
+    /* margin-top: 0; */
     margin-top: 10px;
     /* padding-top: 0; */
   }
 }
 
+@media (max-width: 414px) {
+  .hero-text {
+    margin-top: 60px;
+  }
+  .hero-text h2 {
+    width: 70%;
+    text-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 364px) {
   .learn-more {
     display: none;
