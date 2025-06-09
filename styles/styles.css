@@ -1475,6 +1475,7 @@ footer {
   .hero-text {
     margin-top: 60px;
     z-index: 900;
+    height: 49vh;
   }
   .hero-text h2 {
     width: 70%;
