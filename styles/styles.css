@@ -1500,11 +1500,14 @@ footer {
     /* z-index: 900; */
     height: 49vh;
   }
+
   .hero-text h2 {
     width: 70%;
     text-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    padding-top: 7px;
   }
+
   .hero-text p {
     padding-bottom: 9px;
   }
