@@ -1564,16 +1564,17 @@ footer {
     padding-top: 9px;
   }
 }
+
 @media (max-width: 375px) {
   .hero-text {
     margin-top: 10px;
   }
+
   .hero-text h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin: 0;
+    padding: 0;
   }
+
   .hero-text p {
     margin-top: 0px;
     padding-top: 0px;
