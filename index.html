@@ -280,7 +280,7 @@
           </div>
           <div class="flex justify-between gap-3 mt-10 flex-col sm:flex-row">
             <button class="more whitespace-nowrap">
-              <a href="about.html"> Learn More </a>
+              <a href="about.html"> Read More </a>
             </button>
             <button class="call whitespace-nowrap">
               Call Us Now: <span>233(0)598 551 301</span>
@@ -415,11 +415,11 @@
           </div>
 
           <div class="pres-text col-8 col-sm-7 col-md-7 col-lg-6">
-            <h4 class="soli">
+            <h4 class="soli mb-10">
               Foreword from the President of the Ghana Electrical Contractors'
               Association (GECA)
             </h4>
-            <hr class="dsep" style="border: black" />
+            <!-- <hr class="dsep" style="border: black" /> -->
             <p class="pres-state">
               It is a privilege to share this message on behalf of the Ghana
               Electrical Contractors' Association (GECA). As an organization
@@ -497,38 +497,36 @@
     <section class="stakeholders-container">
       <h1 class="text-center fw-bold">Our Various Stakeholders</h1>
 
-      <div class="swiper container">
+      <div class="swiper w-full mx-auto">
+        <!-- DO NOT add flex to swiper-wrapper -->
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./images/WUSC.jpg" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/WUSC.jpg" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/WorksnHousing.png" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/WorksnHousing.png" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/EnergyCom.jpg" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/EnergyCom.jpg" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/efenergy.JPG" alt="" class="efenergy" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/efenergy.JPG" alt="" class="w-25 rounded-full" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/CTVET.jpg" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/CTVET.jpg" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/ECG.jpg" alt="" class="ecg" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/ECG.jpg" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/NEDCO.jpg" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/NEDCO.jpg" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/GhanaChamber.jpg" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/GhanaChamber.jpg" alt="" class="w-20" />
           </div>
-          <div class="swiper-slide">
-            <img src="./images/GSA.jpg" alt="" />
+          <div class="swiper-slide flex justify-center">
+            <img src="./images/GSA.jpg" alt="" class="w-20" />
           </div>
-          <!-- <div class="swiper-slide">
-            <img src="./images/NEDCO.jpeg" alt="" />
-          </div> -->
         </div>
       </div>
     </section>
@@ -694,27 +692,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
-        slidesPerView: 3, // Show 3 images at once
-        centeredSlides: false,
-        spaceBetween: 0, // Space between slides
-        loop: true, // Loop continuously
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 2,
         autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          delay: 2500, // 2.5 seconds between slides
+          disableOnInteraction: false, // Keeps autoplay running after interaction
         },
         breakpoints: {
-          768: {
-            slidesPerView: 5,
+          640: {
+            slidesPerView: 3,
           },
-          480: {
+          768: {
             slidesPerView: 4,
           },
-          0: {
-            slidesPerView: 2,
+          1024: {
+            slidesPerView: 5,
           },
         },
       });
