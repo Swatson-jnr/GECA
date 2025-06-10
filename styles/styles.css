@@ -1627,7 +1627,7 @@ footer {
   background-color: #16a34a;
 }
 .floating-icon img {
-  margin-top: -8px;
+  /* margin-top: -8px; */
   margin-right: 5px;
   width: 20px;
 }
